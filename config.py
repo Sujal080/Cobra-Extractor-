@@ -3,22 +3,22 @@
 import os
 from os import getenv
 # ---------------R---------------------------------
-API_ID = int(os.environ.get("API_ID", ""))
+API_ID = int(os.environ.get("API_ID", "26330942"))
 # ------------------------------------------------
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "5de9fd033aa828dfd3bf0c28adeee660")
 # ----------------D--------------------------------
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7999358042:AAGXpAPxJkftNoUVKtzq4aQsmbs32wBEmf0")
 # -----------------A-------------------------------
-BOT_USERNAME = os.environ.get("")
+BOT_USERNAME = os.environ.get("@Extractsvbot")
 # ------------------X------------------------------
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6883471516"))
 # ------------------X------------------------------
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6883471516").split()))
 # ------------------------------------------------
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-100"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002618428217"))
 # ------------------------------------------------
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srvter")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://biklriplit:efaXfv2Ps9MRfner@cluster0.4hfu8zj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-100"))
+PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002630316307"))
 
